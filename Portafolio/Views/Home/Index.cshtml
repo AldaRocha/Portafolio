@@ -1,0 +1,20 @@
+﻿@model homeIndexViewModel
+<!--<arriba>model Persona-->
+<!--model con m minuscula sirve para especificar el tipo de dato-->
+
+@{
+    ViewData["Title"] = "Home Page";
+    <!--String convertirEnMayuscula(String valor){
+        return valor.ToUpper()+"ZZZ";
+    }-->
+
+    <!--DateTime hoy=DateTime.Now;-->
+
+    <!--var nombres = new List<String>(){"Francisco", "Alda", "Rocha"};-->
+}
+
+<partial name="_Presentacion"/>
+
+<partial name="_Habilidades"/>
+
+<partial name="_SeccionProyectos" model="Model.proyectos"/>
